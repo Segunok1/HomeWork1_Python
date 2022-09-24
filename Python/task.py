@@ -10,6 +10,6 @@ import numbers
 
 numbers = int(input("Введите цифру дня недели: "))
 if 6 > numbers < 7:
-    print("Нет")
+    print("Нет, это не выходной")
 else:
-    print("Да")
+    print("Да, это выходной")
