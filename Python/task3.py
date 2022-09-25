@@ -9,11 +9,23 @@
 
 x = int(input("Введите координаты точки X: "))
 y = int(input("Введите координаты точки Y: "))
-if x > 0 and y > 0:
-    print("1")
-elif x < 0 and y > 0:
-    print("2")
-elif x < 0 and y < 0:
-    print("3")
-elif x > 0 and y < 0:
-    print("4")   
+# if x > 0 and y > 0:
+#     print("1")
+# elif x < 0 and y > 0:
+#     print("2")
+# elif x < 0 and y < 0:
+#     print("3")
+# elif x > 0 and y < 0:
+#     print("4") 
+
+def  quarter_number(x, y):
+    if x > 0 and y > 0:
+        print("1")
+    elif x < 0 and y > 0:
+        print("2")
+    elif x < 0 and y < 0:
+        print("3")
+    elif x > 0 and y < 0:
+        print("4") 
+
+quarter_number(x, y)
