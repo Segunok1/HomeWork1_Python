@@ -17,7 +17,3 @@ for i in range(len(list)):
     # else len(list) // 2 == 0: 
     new_list = list[i] * list[len-i-1]
     print(new_list)
-
-        
-
-
