@@ -12,7 +12,6 @@ def the_product_of_pairs_of_numbers():
     if len(list1) % 2 != 0:
         res = int(len(list1) / 2) + 1
     else:
-        len(list) // 2 == 0
         res = int(len(list1) / 2)
     new_list = []
     for i in range(0, res): 
