@@ -10,11 +10,9 @@ from hashlib import new
 def the_product_of_pairs_of_numbers():
     list1 = [2, 3, 4, 5, 6]
     if len(list1) % 2 != 0:
-        print('Нечётное')
         res = int(len(list1) / 2) + 1
     else:
         len(list) // 2 == 0
-        print('Чётное')
         res = int(len(list1) / 2)
     new_list = []
     for i in range(0, res): 
