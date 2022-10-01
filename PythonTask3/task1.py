@@ -6,7 +6,6 @@
 """
 def sum_odd_position():
     list = [i for i in range(int(input('Введите число: ')))]
-    print(list)
     sum = 0
     for i in range(len(list)):
         if i % 2 != 0:
