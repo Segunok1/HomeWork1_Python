@@ -5,9 +5,9 @@
 - [2, 3, 5, 9, 3] -> на нечётных позициях элементы 3 и 9, ответ: 12
 """
 def sum_odd_position():
-    list = [i for i in range(int(input('Введите число: ')))]
+    lst = [i for i in range(int(input('Введите число: ')))]
     sum = 0
-    for i in range(len(list)):
+    for i in range(len(lst)):
         if i % 2 != 0:
             sum += i
     print(sum)
