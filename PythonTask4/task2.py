@@ -14,5 +14,6 @@ def non_repeating_elements(nums):
    return lst
 
 
+print('Задайте последовательность чисел.')
 nums = list(map(int, input().split()))
 print(non_repeating_elements(nums))
