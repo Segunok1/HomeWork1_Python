@@ -15,4 +15,5 @@ def non_repeating_elements(nums):
 
 
 nums = ["2", "2", 30, 54, "try", 30, "try"]
+print(nums)
 print(non_repeating_elements(nums))
