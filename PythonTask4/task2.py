@@ -14,6 +14,6 @@ def non_repeating_elements(nums):
    return lst
 
 
-nums = ["2", "2", 30, 54, "try", 30, "try"]
-print(nums)
+print('Задайте последовательность чисел.')
+nums = list(map(int, input().split()))
 print(non_repeating_elements(nums))
