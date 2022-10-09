@@ -9,5 +9,4 @@ def text_filtering():
 
 
 print('Введите текст содержащий слова с "абв": ')
-my_txt = text_filtering()
-print(my_txt)
+print(text_filtering())
